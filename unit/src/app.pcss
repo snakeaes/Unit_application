@@ -1,0 +1,17 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Palette 1: black 264653, teal 2A9D8F, yellow E9C46A, orange F4A261, red E76F51 */
+/* Pallete 2: white F4F1DE, red E07A5F, black 3D405B, teal 81B29A, beige F2CC8F */
+
+/* finally styles that actually hides scrollbar */
+*::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
